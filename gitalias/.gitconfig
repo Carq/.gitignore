@@ -11,3 +11,4 @@
     branch=$(git symbolic-ref --short HEAD); \
     git push --set-upstream origin \"$branch\"; \
     }; f"
+  pdev = pull origin develop
