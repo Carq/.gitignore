@@ -15,3 +15,25 @@
 ## gitignore
 
 [.gitignore_DotNet_and_VisualStudio](gitignore/.gitignore_DotNet_and_VisualStudio) - .gitignore for .NET and Visual Studio
+
+## Useful git commands
+
+```
+// Status with shorten output
+git status -sb
+```
+
+```
+// Checkout previous branch
+git checkout -
+```
+
+```
+// Show information about all branches
+git branch -vv
+```
+
+```
+// Sort branches by commit date
+git branch --sort=-committerdate
+```
